@@ -1,0 +1,133 @@
+*** Failed to import volatility.plugins.registry.shutdown (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.getservicesids (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.timeliner (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.malware.apihooks (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.malware.servicediff (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.userassist (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.getsids (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.shellbags (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.evtlogs (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.tcaudit (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.dumpregistry (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.lsadump (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.malware.threads (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.mac.apihooks_kernel (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.registry.amcache (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.mac.check_syscall_shadow (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.malware.svcscan (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.auditpol (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.ssdt (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.registry.registryapi (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.mac.apihooks (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.envars (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.shimcache (ImportError: No module named Crypto.Hash)
+Process: csrss.exe Pid: 924 Address: 0x7f6f0000
+Vad Tag: Vad  Protection: PAGE_EXECUTE_READWRITE
+Flags: Protection: 6
+
+0x000000007f6f0000  c8 00 00 00 b0 01 00 00 ff ee ff ee 08 70 00 00   .............p..
+0x000000007f6f0010  08 00 00 00 00 fe 00 00 00 00 10 00 00 20 00 00   ................
+0x000000007f6f0020  00 02 00 00 00 20 00 00 8d 01 00 00 ff ef fd 7f   ................
+0x000000007f6f0030  03 00 08 06 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+
+
+Process: winlogon.exe Pid: 948 Address: 0x22e70000
+Vad Tag: VadS Protection: PAGE_EXECUTE_READWRITE
+Flags: CommitCharge: 4, MemCommit: 1, PrivateMemory: 1, Protection: 6
+
+0x0000000022e70000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x0000000022e70010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x0000000022e70020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x0000000022e70030  00 00 00 00 22 00 22 00 01 00 00 00 00 00 00 00   ....".".........
+
+
+
+Process: winlogon.exe Pid: 948 Address: 0x12c40000
+Vad Tag: VadS Protection: PAGE_EXECUTE_READWRITE
+Flags: CommitCharge: 4, MemCommit: 1, PrivateMemory: 1, Protection: 6
+
+0x0000000012c40000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x0000000012c40010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x0000000012c40020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x0000000012c40030  00 00 00 00 25 00 25 00 01 00 00 00 00 00 00 00   ....%.%.........
+
+
+
+Process: winlogon.exe Pid: 948 Address: 0x18240000
+Vad Tag: VadS Protection: PAGE_EXECUTE_READWRITE
+Flags: CommitCharge: 4, MemCommit: 1, PrivateMemory: 1, Protection: 6
+
+0x0000000018240000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x0000000018240010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x0000000018240020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x0000000018240030  00 00 00 00 23 00 23 00 01 00 00 00 00 00 00 00   ....#.#.........
+
+
+
+Process: winlogon.exe Pid: 948 Address: 0x4f250000
+Vad Tag: VadS Protection: PAGE_EXECUTE_READWRITE
+Flags: CommitCharge: 4, MemCommit: 1, PrivateMemory: 1, Protection: 6
+
+0x000000004f250000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x000000004f250010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x000000004f250020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x000000004f250030  00 00 00 00 2b 00 2b 00 01 00 00 00 00 00 00 00   ....+.+.........
+
+
+
+Process: winlogon.exe Pid: 948 Address: 0x52820000
+Vad Tag: VadS Protection: PAGE_EXECUTE_READWRITE
+Flags: CommitCharge: 4, MemCommit: 1, PrivateMemory: 1, Protection: 6
+
+0x0000000052820000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x0000000052820010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x0000000052820020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x0000000052820030  00 00 00 00 25 00 25 00 01 00 00 00 00 00 00 00   ....%.%.........
+
+
+
+Process: winlogon.exe Pid: 948 Address: 0x6d690000
+Vad Tag: VadS Protection: PAGE_EXECUTE_READWRITE
+Flags: CommitCharge: 4, MemCommit: 1, PrivateMemory: 1, Protection: 6
+
+0x000000006d690000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x000000006d690010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x000000006d690020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x000000006d690030  00 00 00 00 28 00 28 00 01 00 00 00 00 00 00 00   ....(.(.........
+
+
+
+Process: winlogon.exe Pid: 948 Address: 0x741a0000
+Vad Tag: VadS Protection: PAGE_EXECUTE_READWRITE
+Flags: CommitCharge: 4, MemCommit: 1, PrivateMemory: 1, Protection: 6
+
+0x00000000741a0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x00000000741a0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x00000000741a0020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x00000000741a0030  00 00 00 00 25 00 25 00 01 00 00 00 00 00 00 00   ....%.%.........
+
+
+
+Process: winlogon.exe Pid: 948 Address: 0x7add0000
+Vad Tag: VadS Protection: PAGE_EXECUTE_READWRITE
+Flags: CommitCharge: 4, MemCommit: 1, PrivateMemory: 1, Protection: 6
+
+0x000000007add0000  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x000000007add0010  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x000000007add0020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0x000000007add0030  00 00 00 00 22 00 22 00 01 00 00 00 00 00 00 00   ....".".........
+
+
+
+Process: soffice.bin Pid: 3088 Address: 0x29a0000
+Vad Tag: VadS Protection: PAGE_EXECUTE_READWRITE
+Flags: CommitCharge: 1, MemCommit: 1, PrivateMemory: 1, Protection: 6
+
+0x00000000029a0000  64 d1 86 61 38 00 9a 02 48 00 9a 02 58 00 9a 02   d..a8...H...X...
+0x00000000029a0010  18 00 9a 02 28 00 9a 02 b8 03 00 00 00 ba 00 00   ....(...........
+0x00000000029a0020  00 00 e9 9b 1b ec 5e 00 b8 04 00 00 00 ba 00 00   ......^.........
+0x00000000029a0030  00 00 e9 8b 1b ec 5e 00 b8 00 00 00 00 ba 00 00   ......^.........
+
+
+

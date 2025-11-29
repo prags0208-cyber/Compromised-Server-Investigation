@@ -1,0 +1,51 @@
+*** Failed to import volatility.plugins.registry.shutdown (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.getservicesids (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.timeliner (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.malware.apihooks (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.malware.servicediff (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.userassist (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.getsids (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.shellbags (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.evtlogs (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.tcaudit (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.dumpregistry (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.lsadump (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.malware.threads (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.mac.apihooks_kernel (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.registry.amcache (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.mac.check_syscall_shadow (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.malware.svcscan (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.auditpol (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.ssdt (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.registry.registryapi (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.mac.apihooks (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.envars (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.shimcache (ImportError: No module named Crypto.Hash)
+Offset(V)  Name                    PID   PPID   Thds     Hnds   Sess  Wow64 Start                          Exit                          
+---------- -------------------- ------ ------ ------ -------- ------ ------ ------------------------------ ------------------------------
+0x89bfb9c8 System                    4      0     64      512 ------      0                                                              
+0x89af0460 smss.exe                876      4      3       19 ------      0 2009-12-11 00:53:21 UTC+0000                                 
+0x899fd970 csrss.exe               924    876     11      417      0      0 2009-12-11 00:53:22 UTC+0000                                 
+0x89b0b818 winlogon.exe            948    876     17      572      0      0 2009-12-11 00:53:22 UTC+0000                                 
+0x89afb5d0 services.exe            992    948     15      265      0      0 2009-12-11 00:53:23 UTC+0000                                 
+0x896e01e0 lsass.exe              1004    948     22      354      0      0 2009-12-11 00:53:23 UTC+0000                                 
+0x89afa608 svchost.exe            1180    992     17      194      0      0 2009-12-11 00:53:23 UTC+0000                                 
+0x89887a78 svchost.exe            1268    992     10      272      0      0 2009-12-11 00:53:24 UTC+0000                                 
+0x89387978 svchost.exe            1392    992     74     1523      0      0 2009-12-11 00:53:24 UTC+0000                                 
+0x89476da0 svchost.exe            1532    992      5       81      0      0 2009-12-11 00:53:24 UTC+0000                                 
+0x8988cc18 svchost.exe            1644    992     11      166      0      0 2009-12-11 00:53:24 UTC+0000                                 
+0x893a2ca8 spoolsv.exe            1908    992     10      114      0      0 2009-12-11 00:53:26 UTC+0000                                 
+0x8944d9e0 svchost.exe            1796    992      4      108      0      0 2009-12-11 00:53:40 UTC+0000                                 
+0x897899e0 avgwdsvc.exe           1728    992     25      962      0      0 2009-12-11 00:53:40 UTC+0000                                 
+0x89398160 jqs.exe                 320    992      5      117      0      0 2009-12-11 00:53:42 UTC+0000                                 
+0x89395800 explorer.exe           1348   1304     13      481      0      0 2009-12-11 00:53:46 UTC+0000                                 
+0x892ccbc0 hkcmd.exe              2684   1348      2      104      0      0 2009-12-11 00:53:51 UTC+0000                                 
+0x892d6948 jusched.exe            2804   1348      2      152      0      0 2009-12-11 00:53:51 UTC+0000                                 
+0x8990ebe0 ctfmon.exe             2832   1348      1       71      0      0 2009-12-11 00:53:52 UTC+0000                                 
+0x89292308 alg.exe                2956    992      6      107      0      0 2009-12-11 00:53:52 UTC+0000                                 
+0x892a29e0 soffice.exe            3048   3000      1       20      0      0 2009-12-11 00:53:52 UTC+0000                                 
+0x89281da0 soffice.bin            3088   3048      7      216      0      0 2009-12-11 00:53:53 UTC+0000                                 
+0x89482718 avgfws9.exe            3936    992     25      762      0      0 2009-12-11 00:54:05 UTC+0000                                 
+0x892e57b0 thunderbird.exe         188   1348     10      203      0      0 2009-12-11 16:54:43 UTC+0000                                 
+0x899a7020 cmd.exe                3296   1348      1       33      0      0 2009-12-11 16:59:32 UTC+0000                                 
+0x8938cb28 mdd_1.3.exe            1768   3296      1       24      0      0 2009-12-11 16:59:51 UTC+0000                                 

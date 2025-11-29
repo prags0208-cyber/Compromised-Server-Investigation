@@ -1,0 +1,31 @@
+*** Failed to import volatility.plugins.registry.shutdown (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.getservicesids (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.timeliner (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.malware.apihooks (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.malware.servicediff (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.userassist (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.getsids (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.shellbags (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.evtlogs (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.tcaudit (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.dumpregistry (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.lsadump (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.malware.threads (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.mac.apihooks_kernel (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.registry.amcache (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.mac.check_syscall_shadow (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.malware.svcscan (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.auditpol (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.ssdt (NameError: name 'distorm3' is not defined)
+*** Failed to import volatility.plugins.registry.registryapi (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.mac.apihooks (ImportError: No module named distorm3)
+*** Failed to import volatility.plugins.envars (ImportError: No module named Crypto.Hash)
+*** Failed to import volatility.plugins.registry.shimcache (ImportError: No module named Crypto.Hash)
+Offset(V)  Local Address             Remote Address            Pid
+---------- ------------------------- ------------------------- ---
+0x897e5008 127.0.0.1:1301            127.0.0.1:1302            188
+0x898e4788 127.0.0.1:1302            127.0.0.1:1301            188
+0x8979b730 192.168.1.104:1310        192.168.1.1:445           4
+0x8946bbe8 192.168.1.104:1208        198.189.255.73:80         2804
+0x8997f690 127.0.0.1:1300            127.0.0.1:1299            188
+0x899b2cb0 127.0.0.1:1299            127.0.0.1:1300            188
