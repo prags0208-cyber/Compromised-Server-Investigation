@@ -39,7 +39,7 @@ Analysis/
 │   Contains Autopsy exports, registry hives, browser history, and PDF reports.
 │
 ├── Memory Forensics - Volatility/
-│   Volatility output files (pslist, pstree, cmdscan, runkeys, malfind, etc.).
+│   Volatility output files (pslist, pstree, cmdscan, runkeys, malfind, etc.) and Scripts used for execution.
 │
 ├── Network Analysis - Wireshark/
 │   Screenshots and packet analysis related to HTTP, PCAP, and IRC traffic.
