@@ -54,8 +54,6 @@ Analysis/
     Final forensic report and supporting documents.
 ```
 
-```
-
 ---
 
 ## 🧠 Methodology  
