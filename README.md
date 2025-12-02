@@ -29,18 +29,29 @@ The investigation aimed to:
 
 ---
 
-## 🗂️ Folder Structure  
+
+## 📁 Folder Structure
 
 ```
-Forensic_Project/
-│── Disk_Image/
-│── Memory_Dump/
-│── PCAPs/
-│── Timeline/
-│   ├── charlie_timeline.unlocked_part_*
-│── Reports/
-│── Screenshots/
-└── README.md
+Analysis/
+│
+├── Disk Forensics - Autopsy/
+│   Contains Autopsy exports, registry hives, browser history, and PDF reports.
+│
+├── Memory Forensics - Volatility/
+│   Volatility output files (pslist, pstree, cmdscan, runkeys, malfind, etc.) and Scripts used for execution.
+│
+├── Network Analysis - Wireshark/
+│   Screenshots and packet analysis related to HTTP, PCAP, and IRC traffic.
+│
+├── Timeline/
+│   Plaso/log2timeline output split into multiple parts for upload.
+│
+├── Evidence/
+│   PCAP files and data used for disk and memory forensic analysis.
+│
+└── Reports/
+    Final forensic report and supporting documents.
 ```
 
 ---
